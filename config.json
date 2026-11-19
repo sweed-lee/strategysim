@@ -1,0 +1,21 @@
+{
+  "env_modules": [
+    {
+      "kwargs": {}
+    }
+  ],
+  "agents": [
+    {
+      "kwargs": {
+        "id": 1,
+        "name": "示例顾客",
+        "profile": {
+          "user_id": 1,
+          "average_spend": 10,
+          "preferences": "喜欢热食"
+        }
+      }
+    }
+  ],
+  "include_domain_knowledge": true
+}

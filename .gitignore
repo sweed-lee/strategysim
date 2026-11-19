@@ -1,0 +1,17 @@
+.env
+.env.*
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.idea/
+.vscode/
+outputs/
+runs-*/
+llm_io/
+records/
+*.jsonl
+*.log
+*_summary.json
+*_results.json
+env_final_status.json

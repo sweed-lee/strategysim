@@ -1,0 +1,13 @@
+时间：${sim_time}
+画像：${profile}
+心理状态：${psychological_state}
+历史：${history}
+店铺：${shop_name}，参考均价：${avg_price}
+菜单：
+${dishes_text}
+${coupon_section}
+
+${basket_discount_reference}
+${basket_budget}
+${menu_price_expectations}
+选择菜单上的商品并加入购物车。输出 JSON 对象，action 填 add_to_cart，items 数组列出 dish_name、price 和正整数 count。另附 reasoning（简短依据）、mood、consumption_plan 和 today_summary。

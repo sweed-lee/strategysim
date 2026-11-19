@@ -1,0 +1,11 @@
+{
+  "1": [
+    {
+      "time": "2000-01-02 12:00:00",
+      "positive": {
+        "shop_id": "demo-shop"
+      },
+      "negatives": []
+    }
+  ]
+}

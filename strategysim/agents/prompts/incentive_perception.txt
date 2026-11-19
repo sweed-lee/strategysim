@@ -1,0 +1,8 @@
+时间：${sim_time}
+画像：${profile}
+心理状态：${psychological_state}
+${coupon_section}
+
+${coupon_threshold_reference}
+${perception_habits}
+你正在浏览模拟商店。根据可见信息更新购物意向。输出 JSON 对象，包含字符串字段 reasoning（简短依据）、mood、"consumption_plan" 和 today_summary。

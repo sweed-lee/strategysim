@@ -1,0 +1,17 @@
+时间：${sim_time}
+画像：${profile}
+心理状态：${psychological_state}
+历史：${history}
+店铺：${shop_name}
+购物车：${cart_text}
+原价：${original_price}
+${coupon_text}
+${unusable_coupon_text}
+
+${basket_discount_reference}
+${checkout_affordability}
+${checkout_coupon_use}
+${incentive_response}
+评估本次交易并输出 JSON 对象。pay 与 use_coupon 为布尔值，coupon_id 为所选券 ID 或 null。
+order_final_price 和 total_payment 填实付金额。支付时 coupon_purchase_prob_delta 为 −1 到 1 之间的相对调整量，放弃时填 null。
+放弃时 no_pay_action 填 leave_shop，并填写 abandon_reason。另附 reasoning（简短依据）、mood、consumption_plan 和 today_summary。
